@@ -1,0 +1,193 @@
+/* dashboard.css */
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Add styles for navigation bar */
+
+/* Add styles for header */
+header {
+    padding: 50px 0;
+    background-color: #e8e8e8;
+}
+
+/* Add styles for dashboard content */
+section {
+    padding: 50px 0;
+}
+
+/* Add styles for footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Add additional styles for card views */
+.card {
+    margin-bottom: 20px;
+}
+/* dashboard.css */
+
+/* Responsive styles for header */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    header {
+        font-size: 40px;
+        padding: 30px 0;
+    }
+}
+
+/* Responsive styles for dashboard content */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    section {
+        font-size: 40px;
+        padding: 30px 0;
+    }
+}
+
+/* Responsive styles for card views */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .card {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+}
+
+  
+body {
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-image: url(bgs.jpg); */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content flex grow to push footer down */
+section {
+    flex: 1;
+}
+
+/* Responsive styles for header */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    header {
+        font-size: 40px;
+        padding: 30px 0;
+    }
+}
+
+/* Responsive styles for dashboard content */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    section {
+        font-size: 40px;
+        padding: 30px 0;
+    }
+}
+
+/* Responsive styles for card views */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .card {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+}
+
+#imgs{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#home{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+
+#profile{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+#dash{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+#login{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+h1{
+    font-size:5.9vw;
+}
+
+#honrad_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#joshh_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#lance_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#cuss_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#rhalf_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#elon_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#zhongli_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#lbj_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#king_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
+
+#drake_pic{
+    min-width: 275px;
+    max-width: 275px;
+    height: 30vh;
+    align-content: center;
+}
